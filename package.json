@@ -1,0 +1,35 @@
+{
+  "name": "stilr-update",
+  "version": "",
+  "description": "Update stylesheet whenever Stilr updates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chcokr/stilr-update.git"
+  },
+  "keywords": [
+    "stilr",
+    "hot",
+    "load"
+  ],
+  "author": "YJ Yang <chcokr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chcokr/stilr-update/issues"
+  },
+  "homepage": "https://github.com/chcokr/stilr-update#readme",
+  "peerDependencies": {
+    "autoprefixer": "^6.0.0",
+    "postcss": "^5.0.0",
+    "stilr": "chcokr/stilr#events"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.0",
+    "chai": "^3.2.0",
+    "postcss": "^5.0.0",
+    "stilr": "chcokr/stilr#events"
+  }
+}
