@@ -6,7 +6,7 @@ These new style rules are autoprefixed.
 
 
 ```JS
-import attachStilrUpdater from 'stilr-hot-load';
+import attachStilrUpdater from 'stilr-update';
 
 if (process.env.NODE_ENV !== 'production') {
   attachStilrUpdater();
