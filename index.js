@@ -6,6 +6,8 @@ var prevSheetMap = null;
 
 module.exports = function attachStilrUpdater(options) {
 
+  options = options || {};
+
   stilr.on('update', function () {
 
     var newSheetMap = stilr.__stylesheet;
