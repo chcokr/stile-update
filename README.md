@@ -13,8 +13,10 @@ if (process.env.NODE_ENV !== 'production') {
 }
 ```
 
-Once you do that, any changes to your Stilr style definitions will hot load on
-your browser!
+This handler is useful especially in the context of [Webpack's hot module
+replacement](http://webpack.github.io/docs/hot-module-replacement.html).
+Once you invoke `attachStilrUpdater()`, any changes to your Stilr style
+definitions will hot-reload on your browser!
 
 ## Options
 
