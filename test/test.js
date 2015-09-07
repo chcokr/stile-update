@@ -5,6 +5,11 @@ var stilr = require('stilr');
 
 describe('attachStilrUpdater', function () {
 
+  it('works with no options passed in', function () {
+    attachStilrUpdater();
+    stilr.off('update');
+  });
+
   it('adds a listener on stilr\'s "update" event', function (done) {
     var specialColorCode = '#fa92fa';
     stilr.clear();
