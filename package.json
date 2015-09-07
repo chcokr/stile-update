@@ -1,6 +1,6 @@
 {
   "name": "stilr-update",
-  "version": "",
+  "version": "0.0.0",
   "description": "Update stylesheet whenever Stilr updates.",
   "main": "index.js",
   "scripts": {
