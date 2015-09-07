@@ -40,7 +40,7 @@ module.exports = function attachStilrUpdater(options) {
           .process(newRulesOnlyCSSContent)
           .css;
 
-      var document = document || null;
+      var document = global.document || null;
       if (document) {
         // Bypassing <head>-appending when document is undefined (for testing
         // purposes)
