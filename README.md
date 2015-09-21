@@ -1,5 +1,12 @@
 # stilr-update
 
+**DEPRECATED:** Please check out
+[chcokr/babel-plugin-stilr-classnames](https://github.com/chcokr/babel-plugin-stilr-classnames)
+instead which can achieve the same hot-loading dream and much more.
+This library depended on a [PR to stilr](https://github.com/kodyl/stilr/pull/19)
+that never went through, so it doesn't work.
+It was never published to npm.
+
 The function returned by this module creates a listener on [Stilr's `"update"`
 event]() that adds any previously unobserved style rules to `<head>`.
 These new style rules are autoprefixed.
